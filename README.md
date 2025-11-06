@@ -22,4 +22,4 @@ pip install -r requirements.txt
 2️⃣ Run the app:
 python app.py
 3️⃣ Access the app:
-Open the link generated in your terminal (usually http://127.0.0.1:7860).
+Open the link generated in your terminal.
