@@ -1,29 +1,25 @@
-+ AQI Predictor — Air Quality Index Detection App
-- This project is an AI-based AQI (Air Quality Index) Prediction App built using Gradio, Scikit-learn, and XGBoost.
-- Users can upload an air quality dataset (CSV or Excel), train a machine learning model, and predict AQI values manually.
+AQI Predictor — Air Quality Index Detection App
+An AI-based web app that predicts Air Quality Index (AQI) using Machine Learning models.
+Built with Gradio, Scikit-learn, and XGBoost, this tool lets you upload your dataset, train models, and predict AQI interactively.
 
-+ Features
-- Upload CSV or Excel datasets
-- Automatic feature detection and preprocessing
-- Trains using Linear Regression, Random Forest, and XGBoost (ensemble model)
-- Displays accuracy (MAE, RMSE, R² Score)
-- Manual AQI prediction from pollutant inputs
-- Clean Gradio web interface
+Features
+✅ Upload CSV or Excel datasets
+✅ Automatic pollutant feature detection & preprocessing
+✅ Trains Linear Regression, Random Forest, and XGBoost models
+✅ Shows accuracy metrics (MAE, RMSE, R² Score)
+✅ Manual AQI prediction from pollutant values
+✅ Clean and simple Gradio UI
 
-+ Tech Stack
-- Python
-- Pandas, NumPy
-- Scikit-learn, XGBoost
-- Gradio
+Tech Stack:
+✅Python
+✅Pandas, NumPy
+✅Scikit-learn, XGBoost
+✅Gradio
 
-+ How to Run
-(1)Install dependencies:
+How to Run:
+1️⃣ Install dependencies:
 pip install -r requirements.txt
-
-(2)Run the app:
+2️⃣ Run the app:
 python app.py
-
-(3)Open the local Gradio link to use the app.
-
-Made By,
-Sanskruti Lambe
+3️⃣ Access the app:
+Open the link generated in your terminal (usually http://127.0.0.1:7860).
